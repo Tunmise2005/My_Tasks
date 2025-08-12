@@ -1,0 +1,5 @@
+price = input("price of garri per paint in naira: ")
+price_float = float(price)
+naira = int(price)
+kobo = (price_float - naira)
+print (f"The price of garri per paint is {naira} and {kobo} kobo")
