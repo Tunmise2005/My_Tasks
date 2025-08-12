@@ -12,8 +12,8 @@
 # print("Hello, !", name)
 
 # # No.4
-# text = "Tunmise"
-# print(text.find("e"))   
+text = "Tunmise"
+print(text.find("e"))   
 
 # # No.5
 # text = "Hello World"
