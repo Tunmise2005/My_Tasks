@@ -1,0 +1,12 @@
+# Tuple Unpacking
+first_name = input("Enter your first name: ")
+age = input("Enter your age: ")
+fav_color = input("Enter your favourite color: ")
+home_town = input("Enter your home town: ")
+profile = (first_name, age, fav_color, home_town)
+print(profile)
+print(first_name)
+print(age)
+print(fav_color)
+print(home_town)
+print(f"********************\nFirst Name: {first_name}\nAge: {age}\nFavourite Color: {fav_color}\nHome Town: {home_town}\n********************")

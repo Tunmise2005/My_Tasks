@@ -1,0 +1,12 @@
+# Tuple Operations
+state_1 = input("Enter the first nigerian state: ")
+state_2 = input("Enter the second nigerian state: ")
+state_3 = input("Enter the third nigerian state: ")
+state_4 = input("Enter the fourth nigerian state: ")
+state_5 = input("Enter the fifth nigerian state: ")
+nigerian_states = (state_1, state_2, state_3, state_4, state_5)
+print(nigerian_states)
+print(nigerian_states[0])
+print(nigerian_states[4])
+print("lagos" in nigerian_states)
+print(f"{len(nigerian_states)}")

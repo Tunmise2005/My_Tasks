@@ -1,0 +1,12 @@
+# Attendance Tracker
+days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+months = ("January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+print(days)
+print(months)
+print("Enter your details")
+name = input("Enter your name: ")
+gender = input("State your gender: ")
+course_track = input("Enter your course: ")
+current_month_num = input("Enter month number: ")
+current_day_num = input("Enter day number: ")
+print(f"********************\nStudent's Name: {name}\nGender: {gender}\nCourse Track: {course_track}\nCurrent month number: {current_month_num}\nCurrent day number: {current_day_num}\n********************")
